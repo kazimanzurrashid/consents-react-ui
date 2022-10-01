@@ -14,7 +14,7 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.0.3",
     "@types/lodash.get": "^4.4.7",
-    "@types/node": "^18.7.20",
+    "@types/node": "^18.7.23",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "eslint-config-prettier": "^8.5.0",
