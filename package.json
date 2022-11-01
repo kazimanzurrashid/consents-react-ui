@@ -16,7 +16,7 @@
     "@types/lodash.get": "^4.4.7",
     "@types/node": "^18.11.3",
     "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
+    "@types/react-dom": "^18.0.8",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "formik": "^2.2.9",
