@@ -5,7 +5,7 @@ RUN npm ci
 COPY . .
 RUN npm run release
 
-FROM nginx:1.23.1-alpine
+FROM nginx:1.23.2-alpine
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 COPY --from=builder /usr/app/build .
