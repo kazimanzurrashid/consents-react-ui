@@ -20,7 +20,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "formik": "^2.2.9",
-    "husky": "^8.0.1",
+    "husky": "^8.0.2",
     "lodash.get": "^4.4.2",
     "prettier": "^2.7.1",
     "react": "^18.2.0",

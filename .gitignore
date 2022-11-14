@@ -28,3 +28,4 @@ cdk.context.json
 
 .vscode/
 .idea/
+.dccache
