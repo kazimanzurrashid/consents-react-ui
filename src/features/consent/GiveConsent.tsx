@@ -15,9 +15,9 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 
-import { IApi } from '../../api';
-import { IConsentCreate } from './contracts';
-import { AppDispatch } from '../../store';
+import type { IApi } from '../../api';
+import type { IConsentCreate } from './contracts';
+import type { AppDispatch } from '../../store';
 import { consentAdded } from './slice';
 
 function GiveConsent({ api }: { api: IApi }) {

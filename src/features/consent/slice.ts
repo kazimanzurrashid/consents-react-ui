@@ -1,8 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-import { IConsent, IConsentState } from './contracts';
-import { IApi } from '../../api';
-import { AppDispatch } from '../../store';
+import type { IConsent, IConsentState } from './contracts';
+import type { IApi } from '../../api';
+import type { AppDispatch } from '../../store';
 
 const initialState: IConsentState = {
   page: 1,

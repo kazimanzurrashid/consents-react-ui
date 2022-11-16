@@ -1,4 +1,4 @@
-import { IConsent, IConsentCreate } from './features/consent/contracts';
+import type { IConsent, IConsentCreate } from './features/consent/contracts';
 
 export interface IApi {
   allConsents(): Promise<IConsent[]>;
@@ -31,7 +31,7 @@ class LocalStorage implements IApi {
     return { id: item.id };
   }
 
-  private static load() {
+  private static load(): IConsent[] {
     const data = localStorage.getItem(LocalStorage.KEY);
 
     if (!data) {
