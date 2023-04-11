@@ -50,4 +50,6 @@ class LocalStorage implements IApi {
   }
 }
 
-export default new LocalStorage();
+const api = new LocalStorage();
+
+export default api;
