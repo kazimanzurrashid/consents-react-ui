@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.8",
-    "@emotion/styled": "^11.10.8",
+    "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.12.2",
     "@reduxjs/toolkit": "^1.9.5",
     "formik": "^2.2.9",
@@ -23,11 +23,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.11.0",
+    "react-router-dom": "^6.11.2",
     "yup": "^1.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
+    "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
